@@ -1,6 +1,6 @@
 # DVC - DL - TF - AIOPS demo
 
-download data ---> [source](https://drive.google.com/drive/u/0/folders/1tz4IOoJKdi999IRdqJY04VOifyllRzj1)
+download data ---> [source](https://drive.google.com/drive/u/0/folders/1zWxSffR3WaSWPayXmBU57hJlaRIYSmF2)
 
 ## commnads - 
 
@@ -28,4 +28,9 @@ git init
 ```bash
 mkdir -p config src/utils
 touch src/__init__.py src/utils/__init__.py params.yaml dvc.yaml config/config.yaml src/stage_01_load_save.py src/utils/all_utils.py setup.py .gitignore
+```
+
+### install src
+```bash
+pip install -e .
 ```
