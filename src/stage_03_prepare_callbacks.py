@@ -11,7 +11,7 @@ logging.basicConfig(filename=os.path.join(log_dir, 'running_logs.log'), level=lo
                     filemode="a")
 
 
-def callbacks(config_path,params_path):
+def prepare_callbacks(config_path,params_path):
     config = read_yaml(config_path)
     params = read_yaml(params_path)
 
